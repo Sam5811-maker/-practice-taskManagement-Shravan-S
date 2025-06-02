@@ -1,20 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import TaskList from './components/TaskList'
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import TaskList from "./components/TaskList";
+import TaskDetail from "./components/TaskDetail";
 
-function App() {
- 
-
+const App = () => {
   return (
-    <>
-    <div className='display-page'>
-     <TaskList />
+    <Router>
+      <Routes>
+        <Route path="/" element={<TaskList />} />
+        <Route path="/task/:id" element={<TaskDetail />} />
+      </Routes>
+    </Router>
+  );
+};
 
-    </div>
-    </>
-  )
-}
-
-export default App
+export default App;

@@ -1,17 +1,5 @@
 [
-    {
-        "Id" : 0,
-        "title": "Practice-03",
-        "description": "Working on Props"
-    },
-    {
-        "Id" : 1,
-        "title": "Practice-04",
-        "description": "Working on Routs"
-    },
-    {
-        "Id" : 2,
-        "title": "Practice-05",
-        "description": "Working on Hooks"
-    }
+  { "id": 0, "title": "Practice-03", "description": "Working on Props" },
+  { "id": 1, "title": "Practice-04", "description": "Working on Routes" },
+  { "id": 2, "title": "Practice-05", "description": "Working on Hooks" }
 ]
